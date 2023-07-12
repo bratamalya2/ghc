@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saturn by GHC</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.png" alt="Logo" />
+      <img src="./assets/hero-logo.png" alt="Hero Logo" />
+      <img src="./assets/cart.png" alt="Cart" />
+    </header>
+    <h1 id="welcome-text"><span>Welcome,</span> June!</h1>
+    <nav>
+      <li id="nav-1">
+        <img src="./assets/track.png" alt="nav-1" />
+        <div>TRACK</div>
+      </li>
+      <li id="nav-2">
+        <img src="./assets/wallet.png" alt="nav-2" />
+        <div>WALLET</div>
+      </li>
+      <li id="nav-3">
+        <img src="./assets/blogs.png" alt="nav-3" />
+        <div>BLOGS</div>
+      </li>
+      <li id="nav-4">
+        <img src="./assets/consult.png" alt="nav-4" />
+        <div>CONSULT</div>
+      </li>
+    </nav>
+    <section id="wellness-overview">
+      <section id="wellness-overview-left">
+        <div id="wellness-overview-text">Wellness Overview:</div>
+        <div id="wellness-overview-number">
+          40
+          <div id="wellness-overview-bmi-type">Overweight</div>
+        </div>
+        <div id="wellness-overview-current-bmi-text">Your current BMI</div>
+      </section>
+      <section id="wellness-overview-right">
+        <div class="wellness-overview-right-div">
+          <img src="./assets/weight.png" alt="Weighing machine" />
+          80.5 kgs
+        </div>
+        <div class="wellness-overview-right-div">
+          <img src="./assets/sleep-time.png" alt="Bed time" />
+          7/8 Hours
+        </div>
+        <div class="wellness-overview-right-div">
+          <img src="./assets/water-droplet.png" alt="Water consumption" />
+          4/8 Glasses
+        </div>
+      </section>
+    </section>
+    <main>
+      <section id="skin-score">
+        <div class="skin-score-text">Overall skin score:</div>
+        <div id="skin-score-number">
+          45
+          <div id="skin-score-info-container">
+            <div>
+              <img src="./assets/fire.png" alt="Time spent" />
+              5 weeks
+            </div>
+            <div>
+              <img src="./assets/uploads.png" alt="Uploads" />
+              20 uploads
+            </div>
+          </div>
+        </div>
+        <div class="skin-score-completion">
+          <div class="skin-score-complete"></div>
+          <div class="skin-score-incomplete"></div>
+        </div>
+        <div id="skin-score-week">
+          Week: <span id="skin-score-week-number">40/54</span>
+        </div>
+      </section>
+      <section id="hair-tracker">
+        <div class="skin-score-text">Hair Tracker:</div>
+        <div id="hair-tracker-info-container">
+          <div>
+            <img src="./assets/fire.png" alt="Time spent" />
+            5 weeks
+          </div>
+          <div>
+            <img src="./assets/uploads.png" alt="Uploads" />
+            20 uploads
+          </div>
+        </div>
+        <div class="skin-score-completion">
+          <div class="skin-score-complete"></div>
+          <div class="skin-score-incomplete"></div>
+        </div>
+        <div id="hair-tracker-week">
+          Week: <span id="hair-tracker-week-number">40/54</span>
+        </div>
+      </section>
+    </main>
+    <section id="view-all-trackers">
+      View all trackers
+      <img src="./assets/right-arrow.png" alt="Go to trackers" />
+    </section>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/carousel-1.png" class="d-block w-100" alt="SPF" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/carousel-2.png"
+            class="d-block w-100"
+            alt="Haircare"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section id="bestsellers">
+      <div class="category">
+        <div class="category-name">Bestsellers</div>
+        <div class="view-all">View all</div>
+      </div>
+      <div class="products">
+        <div class="product-card">
+          <img src="./assets/bestseller-1.png" alt="1" />
+          <div class="discount">-40%</div>
+          <div class="like-btn">
+            <img src="./assets/like-button.png" alt="Like" />
+          </div>
+          <div class="product-card-details">
+            <div class="product-name">Anti-ageing Combo</div>
+            <div>
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <span class="rating-number">(4.7)</span>
+            </div>
+            <div class="price">
+              Rs. 999
+              <span class="price-strike-through">Rs. 1,598</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./assets/bestseller-2.png" alt="2" />
+          <div class="discount">-40%</div>
+          <div class="like-btn">
+            <img src="./assets/like-button.png" alt="Like" />
+          </div>
+          <div class="product-card-details">
+            <div class="product-name">Anti-ageing Combo</div>
+            <div>
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <span class="rating-number">(4.7)</span>
+            </div>
+            <div class="price">
+              Rs. 999
+              <span class="price-strike-through">Rs. 1,598</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./assets/bestseller-2.png" alt="2" />
+          <div class="discount">-40%</div>
+          <div class="like-btn">
+            <img src="./assets/like-button.png" alt="Like" />
+          </div>
+          <div class="product-card-details">
+            <div class="product-name">Anti-ageing Combo</div>
+            <div>
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <span class="rating-number">(4.7)</span>
+            </div>
+            <div class="price">
+              Rs. 999
+              <span class="price-strike-through">Rs. 1,598</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="hair-care">
+      <div class="category">
+        <div class="category-name">Hair Care</div>
+        <div class="view-all">View all</div>
+      </div>
+      <div class="products">
+        <div class="product-card">
+          <img src="./assets/hair-care-1.png" alt="1" />
+          <div class="discount">-40%</div>
+          <div class="like-btn">
+            <img src="./assets/like-btn-liked.png" alt="Liked" />
+          </div>
+          <div class="product-card-details">
+            <div class="product-name">Anti-ageing Combo</div>
+            <div>
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <span class="rating-number">(4.7)</span>
+            </div>
+            <div class="price">
+              Rs. 999
+              <span class="price-strike-through">Rs. 1,598</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./assets/hair-care-2.png" alt="2" />
+          <div class="discount">-40%</div>
+          <div class="like-btn">
+            <img src="./assets/like-button.png" alt="Like" />
+          </div>
+          <div class="product-card-details">
+            <div class="product-name">Anti-ageing Combo</div>
+            <div>
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <span class="rating-number">(4.7)</span>
+            </div>
+            <div class="price">
+              Rs. 999
+              <span class="price-strike-through">Rs. 1,598</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./assets/bestseller-2.png" alt="2" />
+          <div class="discount">-40%</div>
+          <div class="like-btn">
+            <img src="./assets/like-button.png" alt="Like" />
+          </div>
+          <div class="product-card-details">
+            <div class="product-name">Anti-ageing Combo</div>
+            <div>
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <span class="rating-number">(4.7)</span>
+            </div>
+            <div class="price">
+              Rs. 999
+              <span class="price-strike-through">Rs. 1,598</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="understanding-hair">
+      <div class="category">
+        <div class="category-name">Understanding Hair</div>
+        <div class="view-all">View all</div>
+      </div>
+      <div class="blog-container">
+        <span class="blog-card">
+          <img src="./assets/blog-1.png" alt="1" />
+          <p class="blog-title">
+            Groom to Perfection: Aloe Vera Hair Mask for Men's Hair Care
+          </p>
+          <p class="blog-writer">By Mars by GHC on Jun 22, 2022</p>
+        </span>
+        <span class="blog-card">
+          <img src="./assets/blog-2.png" alt="2" />
+          <p class="blog-title">
+            Coffee for Hair Growth: Brew Up Longer, Thicker Hair with Coffee
+          </p>
+          <p class="blog-writer">By Mars by GHC on Jun 22, 2022</p>
+        </span>
+        <span
+          class="blog-card"
+          style="background-image: url('./assets/blog-3.png')"
+        >
+          <img src="./assets/blog-3.png" alt="3" />
+          <p class="blog-title">
+            Maximizing Hair Growth and Health: 7 Benefits of Biotin Hair Gummies
+          </p>
+          <p class="blog-writer">By Mars by GHC on Jun 22, 2022</p>
+        </span>
+        <span
+          class="blog-card"
+          style="background-image: url('./assets/blog-4.png')"
+        >
+          <img src="./assets/blog-4.png" alt="4" />
+          <p class="blog-title">
+            Vitamin E tabs for hair: Get Lustrous Hair In No Time!
+          </p>
+          <p class="blog-writer">By Mars by GHC on Jun 22, 2022</p>
+        </span>
+      </div>
+    </section>
+    <section id="skin-care">
+      <div class="category">
+        <div class="category-name">Skin Care</div>
+      </div>
+      <div class="products">
+        <div class="product-card">
+          <img src="./assets/bestseller-1.png" alt="1" />
+          <div class="discount">-40%</div>
+          <div class="like-btn">
+            <img src="./assets/like-button.png" alt="Like" />
+          </div>
+          <div class="product-card-details">
+            <div class="product-name">Anti-ageing Combo</div>
+            <div>
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <span class="rating-number">(4.7)</span>
+            </div>
+            <div class="price">
+              Rs. 999
+              <span class="price-strike-through">Rs. 1,598</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./assets/bestseller-2.png" alt="2" />
+          <div class="discount">-40%</div>
+          <div class="like-btn">
+            <img src="./assets/like-button.png" alt="Like" />
+          </div>
+          <div class="product-card-details">
+            <div class="product-name">Anti-ageing Combo</div>
+            <div>
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <span class="rating-number">(4.7)</span>
+            </div>
+            <div class="price">
+              Rs. 999
+              <span class="price-strike-through">Rs. 1,598</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./assets/bestseller-2.png" alt="2" />
+          <div class="discount">-40%</div>
+          <div class="like-btn">
+            <img src="./assets/like-button.png" alt="Like" />
+          </div>
+          <div class="product-card-details">
+            <div class="product-name">Anti-ageing Combo</div>
+            <div>
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <img src="./assets/rating-star.png" alt="*" />
+              <span class="rating-number">(4.7)</span>
+            </div>
+            <div class="price">
+              Rs. 999
+              <span class="price-strike-through">Rs. 1,598</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skin-talk">
+      <div class="category">
+        <div class="category-name">Skin - Talk</div>
+      </div>
+      <div class="blog-container">
+        <span class="blog-card">
+          <img src="./assets/skin-blog-1.png" alt="1" />
+          <p class="blog-title">
+            6 Surprising Benefits of Washing Your Face with Salt Water
+          </p>
+          <p class="blog-writer">By Mars by GHC on Jun 22, 2022</p>
+        </span>
+        <span class="blog-card">
+          <img src="./assets/skin-blog-2.png" alt="2" />
+          <p class="blog-title">
+            Get Clear, Radiant Skin with these 9 Benefits of Honey for Pimples
+          </p>
+          <p class="blog-writer">By Mars by GHC on Jun 22, 2022</p>
+        </span>
+        <span
+          class="blog-card"
+          style="background-image: url('./assets/blog-3.png')"
+        >
+          <img src="./assets/skin-blog-3.png" alt="3" />
+          <p class="blog-title">Natural ways to remove tan from hands</p>
+          <p class="blog-writer">By Mars by GHC on Jun 22, 2022</p>
+        </span>
+        <span
+          class="blog-card"
+          style="background-image: url('./assets/blog-4.png')"
+        >
+          <img src="./assets/skin-blog-4.png" alt="4" />
+          <p class="blog-title">
+            Vitamin E tabs for hair: Get Lustrous Hair In No Time!
+          </p>
+          <p class="blog-writer">By Mars by GHC on Jun 22, 2022</p>
+        </span>
+      </div>
+    </section>
+    <section id="view-all-trackers">
+      <img src="./assets/insta-icon.png" alt="Instagram" />
+      Join our 10K family on Instagram
+      <img src="./assets/right-arrow.png" alt="Go to trackers" />
+    </section>
+    <footer>
+      <img src="./assets/home.png" alt="Home" />
+      <img src="./assets/track (2).png" alt="Track" />
+      <img src="./assets/search.png" alt="Search" />
+      <img src="./assets/account.png" alt="Account" />
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,541 @@
+header {
+    height: 61px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#welcome-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 25.78px;
+    font-weight: 500;
+    margin-left: 2%;
+}
+
+#welcome-text > span {
+    font-weight: 300;
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+nav > li {
+    position: relative;
+    margin: 5px 2%;
+    width: 65px;
+    height: 65px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+nav > li > img {
+    position: absolute;
+    top: -15px;
+}
+
+nav > li > div {
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 11.72px;
+}
+
+#nav-1 {
+    background-color: #CDCCF3;
+}
+
+#nav-2 {
+    background-color: #F5FCC6;
+}
+
+#nav-3 {
+    background-color: #C5EEFD;
+}
+
+#nav-4 {
+    background-color: #FDEEE0;
+}
+
+#wellness-overview {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 114px;
+    width: 96%;
+    margin: 5px 2%;
+    background-color: #EFEEFB;
+    border: none;
+    border-radius: 10px;
+}
+
+#wellness-overview-left {
+    padding: 15px 0;
+    width: 50%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#wellness-overview-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+}
+
+#wellness-overview-number {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    color: #333333;
+}
+
+#wellness-overview-bmi-type {
+    position: absolute;
+    top: 10px;
+    left: 110%;
+    width: 55px;
+    padding-top: 4px;
+    text-align: center;
+    height: 17px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    color: #FA725F;
+}
+
+#wellness-overview-current-bmi-text {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #777777;
+}
+
+#wellness-overview-right {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wellness-overview-right-div {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 110px;
+    height: 26px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11.72px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.wellness-overview-right-div > img {
+    margin-right: 5px;
+}
+
+main {
+    display: flex;
+    width: 96%;
+    margin: 10px 2%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#skin-score {
+    height: 126px;
+    width: 46%;
+    padding: 20px 5%;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFF3EB;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skin-score-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+#skin-score-number {
+    color: #333333;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#skin-score-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+#skin-score-info-container > div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11.72px;
+}
+
+#skin-score-info-container > div > img {
+    margin-right: 10px;
+}
+
+.skin-score-completion {
+    height: 4px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skin-score-complete {
+    background-color: #FF4747;
+    width: 60%;
+    height: 100%;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.skin-score-incomplete {
+    background-color: #FE8276;
+    width: 40%;
+    height: 100%;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#skin-score-week {
+    columns: #777777;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+#skin-score-week-number {
+    color: #777777;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+#hair-tracker {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 126px;
+    width: 46%;
+    padding: 20px 5%;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFECF3;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hair-tracker-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-top: 5px;
+}
+
+#hair-tracker-info-container > div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11.72px;
+    margin-bottom: 5px;
+}
+
+#hair-tracker-info-container > div > img {
+    margin-right: 10px;
+}
+
+#hair-tracker-week {
+    columns: #777777;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+#hair-tracker-week-number {
+    color: #777777;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+#view-all-trackers {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 48px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #333333;
+    padding: 0 3%;
+}
+
+#carouselExampleIndicators {
+    width: 96%;
+    margin: 15px auto;
+}
+
+#bestsellers {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.category-name {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: 0.18px;
+}
+
+.view-all {
+    text-align: center;
+    padding-bottom: 5px;
+    width: 83px;
+    height: 24px;
+    border-radius: 20px;
+    border: 1px solid #333333;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+.products {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.product-card {
+    position: relative;
+    height: 229px;
+    width: 156px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.12);
+    font-family: 'Roboto', sans-serif;
+    color: rgba(51, 51, 51, 1);
+}
+
+.discount {
+    width: 39px;
+    height: 20px;
+    position: absolute;
+    background-image: url("./assets/discount.png");
+    top: 13px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.like-btn {
+    left: 127px;
+    top: 14.65px;
+    position: absolute;
+}
+
+.product-card-details {
+    margin-top: 15px;
+    padding-left: 10%;
+}
+
+.product-name {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.18px;
+}
+
+.rating-number {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.18px;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.18px;
+}
+
+.price-strike-through {
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0.18px;
+}
+
+#hair-care {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+#understanding-hair {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.blog-container {
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.blog-card {
+    width: 271px;
+    height: 271px;
+    border: none;
+    border-radius: 16px;
+    margin-right: 3%;
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.blog-card > img {
+    filter: brightness(70%);
+}
+
+.blog-title {
+    position: absolute;
+    top: 190px;
+    left: 21px;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.18px;
+}
+
+.blog-writer {
+    position: absolute;
+    top: 231px;
+    left: 21px;
+    font-size: 10px;
+    line-height: 11.72px;
+    letter-spacing: 0.18px;
+}
+
+#skin-care {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+#skin-talk {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+footer {
+    width: 96%;
+    margin: 15px auto;
+    height: 66px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 500px) {
+    .products {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .blog-container {
+        overflow-y: hidden;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .blog-container {
+        overflow-x: hidden;
+    }
+}
